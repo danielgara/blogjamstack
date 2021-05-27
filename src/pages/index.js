@@ -13,7 +13,7 @@ const IndexPage = () => {
       <div className="row">
         <div className="col-lg-8 col-md-10 mx-auto text-center">
           <p>Navigate to the <a href="/posts">posts section</a> to check the latest posts.</p>
-          <img className="rounded" src={city2} />
+          <img className="rounded img-fluid" src={city2} />
         </div>
       </div>
     </Layout>

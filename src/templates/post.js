@@ -18,7 +18,7 @@ export default function Post({ pageContext }) {
             </h2>
             <p className="post-meta">Posted by <span><b>Admin</b></span> on {post.created_at}</p>
             <div className="text-center">
-              <img className="rounded" src={city} />
+              <img className="rounded img-fluid" src={city} />
               <br />
               <p class="post-subtitle font-300">
                 {post.description}
