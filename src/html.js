@@ -69,7 +69,7 @@ export default function HTML(props) {
         <footer>
           <div className="text-center p-4" style={styleGrey}>
             © 2021 DanielGara Copyright - 
-            <a style={{ fontWeight: 700, textDecoration: "none"}} href="https://github.com/mvcblogs" target="_blank"> GitHub</a>
+            <a style={{ fontWeight: 700, textDecoration: "none"}} href="https://github.com/danielgara/blogjamstack" target="_blank"> GitHub</a>
           </div>
         </footer>
       </body>

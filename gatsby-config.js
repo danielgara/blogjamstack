@@ -11,9 +11,9 @@ module.exports = {
       resolve: "gatsby-source-mysql",
       options: {
         connectionDetails: {
-          host: 'localhost',
-          user: 'root',
-          password: '',
+          host: 'database-1.cyehxs5qyhwe.us-east-1.rds.amazonaws.com',
+          user: 'admin',
+          password: 'Hola12345.y',
           database: 'blogjamstack'
         },
         queries: [
