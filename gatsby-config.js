@@ -8,12 +8,22 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: "gatsby-source-mysql",
       options: {
-        name: "images",
-        path: "./src/images/",
-      },
-      __key: "images",
+        connectionDetails: {
+          host: 'localhost',
+          user: 'root',
+          password: '',
+          database: 'blogjamstack'
+        },
+        queries: [
+          {
+            statement: 'SELECT * FROM posts',
+            idFieldName: 'id',
+            name: 'posts'
+          }
+        ]
+      }
     },
   ],
 };
